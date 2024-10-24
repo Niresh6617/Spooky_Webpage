@@ -196,8 +196,8 @@ h1, h2 {
 }
 
 .image-container img {
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 450px;
 }
 
 .text-container {
@@ -260,7 +260,8 @@ p {
 /* Testimonies Section */
 .testimonies {
     font-family: 'SomethingStrange';
-    background-color: #2b0647; /* Dark purple background */
+    background-image: url("../img/Feature_background.png"); /* Dark purple background */
+    background-size: cover;
     color: #fca311; /* Yellow-orange text color */
     padding: 50px;
     text-align: center;
@@ -280,30 +281,34 @@ p {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    /* border: 1px solid white; */
 }
 
 .testimony {
     width: 40%;
     margin-bottom: 30px;
+    margin: 50px 50px;
     text-align: left;
     position: relative;
+    /* border: 1px solid white; */
 }
 
 .testimony-img {
     position: absolute;
     top: -50px; /* Adjust position of the image */
     left: 0;
-    width: 100px;
+    width: 200px;
+
 }
 
 .testimony-img img {
     width: 100%;
     border-radius: 50%;
-    border: 3px solid #fca311; /* Circle image with yellow border */
+    /* border: 3px solid #fca311; Circle image with yellow border */
 }
 
 .testimony-text {
-    padding-left: 120px; /* Space for the image on the left */
+    padding-left: 220px; /* Space for the image on the left */
 }
 
 .testimony-text h3 {
